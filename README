@@ -1,0 +1,3 @@
+This repository shows two codes for reading and setting up pzem 004t energy meter using python. 
+the first code pzem.py reads the values in the registers acording to datasheet
+the second code set_address_pzem.py sets the modbus addres of the device. this is useful if you want to measure two ore more circuits using several sensors in a signle modbus channel
