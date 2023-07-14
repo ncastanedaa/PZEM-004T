@@ -6,6 +6,7 @@ client = ModbusClient(method='rtu', port='/dev/ttyUSB0', baudrate=9600)
 #if windows
 #client = ModbusClient(method='rtu', port='com3', baudrate=9600)
 
+#device default address is 0x01. However you can change the address by modifying the register that sets the address
 device_address = 0x01
 
 # connect to the PZEM-004T
